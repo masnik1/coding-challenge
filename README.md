@@ -2,7 +2,7 @@
 
 Python project developed for System Integration Coding Challenge
 
-The project consists in an implementation between a local Zammad Helpdesk with a Zammad API and two Python scripts
+The project consists in an implementation between a local Zammad Helpdesk with a Zammad API and two Python scripts.
 One for importing all tickets from a dataset of customer issues/complains [huggingface](https://huggingface.co/)
 and the other one for predicting the sentiment of the issue and correctly updating the priority of it using a model of [sentimental classification](https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis?text=I+like+you.+I+love+you). 
 
@@ -26,15 +26,15 @@ And then :
 docker-compose up
 ```
 
-This will serve the application at http://localhost:8080/ - Then make sure to start it with default values
-Maybe you'll need to create a new ```ZAMMAD_TOKEN``` Auth token and update the ```.env``` file
-I suggest as an example selecting all preferences on Zammad Helpdesk (tried just admin and ticket api and it did not work -> Selecting all worked)
+This will serve the application at http://localhost:8080/ - Then make sure to start it with default values.
+Maybe you'll need to create a new ```ZAMMAD_TOKEN``` Auth token and update the ```.env``` file.
+I suggest as an example selecting all preferences on Zammad Helpdesk (tried just admin and ticket api and it did not work -> Selecting all worked).
 
 So go to:
-1. Your profile photo on Zammad Helpdesk
-2. Profile
-3. Token Access
-4. Select all the permissions you need and copy the new token -> Update it on the ```.env``` file
+1. Your profile photo on Zammad Helpdesk.
+2. Profile.
+3. Token Access.
+4. Select all the permissions you need and copy the new token -> Update it on the ```.env``` file.
 
 Later, we just need to set our env to run our python scripts:
 If you want to run it in a venv:
