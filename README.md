@@ -37,7 +37,7 @@ So go to:
 4. Select all the permissions you need and copy the new token -> Update it on the ```.env``` file.
 
 Later, we just need to set our env to run our python scripts:
-If you want to run it in a venv:
+If you want to run it in a venv (to run the virtualenv venv command go to the project folder first):
 
 ```bash
 pip install virtualenv
@@ -61,8 +61,6 @@ pip install -r requirements.txt
 
 After that you can run first the:
 ```import_tickets_zammad.py``` and then the ```update_tickets_zammad.py```
-
---------------------------------------------- ///////// -------------------------
 
 # 🚀 Citations
 
